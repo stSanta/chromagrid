@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chroma Grid</title>
+  <meta name="description" content="Chroma Grid turns an iPhone or iPad into a clean chroma key tracking screen for editing, advertising, and bright production environments.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;520;650;760&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Navigation">
+    <a class="brand" href="#top" aria-label="Chroma Grid">
+      <img src="assets/app-icon.png" alt="" width="42" height="42">
+      <span>Chroma Grid</span>
+    </a>
+    <nav>
+      <a href="#workflow">Workflow</a>
+      <a href="#use-cases">Use Cases</a>
+      <a href="#details">Markers</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-scene" aria-hidden="true">
+        <div class="light-beam beam-one"></div>
+        <div class="light-beam beam-two"></div>
+        <div class="phone-shell">
+          <div class="chroma-screen">
+            <span class="marker marker-tl"></span>
+            <span class="marker marker-tr"></span>
+            <span class="marker marker-bl"></span>
+            <span class="marker marker-br"></span>
+            <span class="scan-line"></span>
+            <span class="replacement replacement-one"></span>
+            <span class="replacement replacement-two"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-copy reveal">
+        <img class="hero-icon" src="assets/app-icon.png" alt="" width="88" height="88">
+        <p class="eyebrow">Chroma key screen for production</p>
+        <h1 id="hero-title">A blue or green screen that is easy to track in post.</h1>
+        <p class="lead">Open Chroma Grid on a phone, shoot the scene, then replace the screen with footage, an interface, or an ad creative. High-contrast markers help lock the plane even when the camera moves.</p>
+        <a class="primary-link" href="#workflow">See the workflow</a>
+      </div>
+    </section>
+
+    <section id="workflow" class="section workflow">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Post-production without setup pain</p>
+        <h2>Shoot the screen, key the color, insert the final content.</h2>
+      </div>
+
+      <div class="steps">
+        <article class="step reveal">
+          <span>01</span>
+          <h3>Place the phone in frame</h3>
+          <p>Choose a blue or green background and enable corner markers. The screen becomes a clean, bright surface for replacement.</p>
+        </article>
+        <article class="step reveal">
+          <span>02</span>
+          <h3>Track the markers</h3>
+          <p>Clear tracking points give the editor reliable anchors for corner pinning, planar tracking, and stabilizing the insert.</p>
+        </article>
+        <article class="step reveal">
+          <span>03</span>
+          <h3>Insert any footage</h3>
+          <p>After keying, replace the screen with a video, landing page, app interface, ad banner, or product demo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="use-cases" class="section split">
+      <div class="copy reveal">
+        <p class="eyebrow">Why it helps</p>
+        <h2>When a real display gets in the way, Chroma Grid keeps the shot controllable.</h2>
+        <p>In bright light, screens catch glare, interfaces clip, cameras pick up moire, and display brightness fights the exposure. Chroma Grid leaves only a color plane and tracking points in the shot, so the final content can be added in post.</p>
+      </div>
+      <div class="use-list reveal">
+        <div>
+          <strong>Advertising</strong>
+          <p>Shoot one take with the phone, then swap creative versions during editing.</p>
+        </div>
+        <div>
+          <strong>Product shots</strong>
+          <p>Control reflections and lighting without fighting a live screen interface.</p>
+        </div>
+        <div>
+          <strong>Social and promos</strong>
+          <p>Quickly place footage, landing pages, and app demos into real camera shots.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="details" class="section tracker-demo">
+      <div class="tracker-copy reveal">
+        <p class="eyebrow">Markers hold the plane</p>
+        <h2>The markers are intentionally simple: white field, black center, and crosshair.</h2>
+        <p>This shape reads well on blue and green backgrounds, stays visible after compression, and makes it easier to track the screen corners accurately.</p>
+      </div>
+      <div class="marker-board reveal" aria-hidden="true">
+        <span class="marker marker-tl"></span>
+        <span class="marker marker-tr"></span>
+        <span class="marker marker-bl"></span>
+        <span class="marker marker-br"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/app-icon.png" alt="" width="36" height="36">
+    <span>Chroma Grid</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
