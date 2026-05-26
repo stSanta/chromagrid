@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chroma Grid</title>
-  <meta name="description" content="Chroma Grid turns an iPhone or iPad into a clean chroma key tracking screen for editing, advertising, and bright production environments.">
+  <meta name="description" content="Chroma Grid support, help, and product information for using an iPhone or iPad as a chroma key tracking screen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;520;650;760&display=swap" rel="stylesheet">
@@ -20,6 +20,8 @@
       <a href="#workflow">Workflow</a>
       <a href="#use-cases">Use Cases</a>
       <a href="#details">Markers</a>
+      <a href="#help">Help</a>
+      <a href="#support">Support</a>
     </nav>
   </header>
 
@@ -46,7 +48,10 @@
         <p class="eyebrow">Chroma key screen for production</p>
         <h1 id="hero-title">A blue or green screen that is easy to track in post.</h1>
         <p class="lead">Open Chroma Grid on a phone, shoot the scene, then replace the screen with footage, an interface, or an ad creative. High-contrast markers help lock the plane even when the camera moves.</p>
-        <a class="primary-link" href="#workflow">See the workflow</a>
+        <div class="hero-actions">
+          <a class="primary-link" href="#workflow">See the workflow</a>
+          <a class="secondary-link" href="#support">Get support</a>
+        </div>
       </div>
     </section>
 
@@ -110,11 +115,102 @@
         <span class="marker marker-br"></span>
       </div>
     </section>
+
+    <section id="help" class="section help-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Help center</p>
+        <h2>Using Chroma Grid on set.</h2>
+        <p>Chroma Grid is designed to be simple: choose a chroma color, pick a marker layout, film the phone or tablet, and replace the screen in editing software.</p>
+      </div>
+
+      <div class="help-grid">
+        <article class="help-card reveal">
+          <h3>Basic setup</h3>
+          <ol>
+            <li>Open Chroma Grid on the device that will appear in the shot.</li>
+            <li>Open the side menu and choose Green Screen or Blue Screen.</li>
+            <li>Keep tracking markers enabled unless the shot does not need screen replacement.</li>
+            <li>Lock exposure and focus on the camera before recording.</li>
+          </ol>
+        </article>
+
+        <article class="help-card reveal">
+          <h3>Choosing a marker layout</h3>
+          <p>Use 2x2 for simple corner tracking. Use 2x3 or 3x3 when the device moves, the angle is steep, or the screen takes up a large part of the frame.</p>
+        </article>
+
+        <article class="help-card reveal">
+          <h3>Editing workflow</h3>
+          <p>Key out the blue or green screen, track the visible markers, then corner-pin or planar-track the replacement footage into the phone screen area.</p>
+        </article>
+
+        <article class="help-card reveal">
+          <h3>Bright environments</h3>
+          <p>If a real display produces glare, reflections, moire, or exposure problems, record the chroma screen instead and add the final UI, footage, or ad creative in post.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Common questions.</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="reveal" open>
+          <summary>Why does the app use blue and green backgrounds?</summary>
+          <p>Blue and green are standard chroma key colors. They are easy to isolate in editing software and usually separate well from hands, devices, and room lighting.</p>
+        </details>
+
+        <details class="reveal">
+          <summary>Why are there tracking markers on the screen?</summary>
+          <p>The markers help editors track the screen plane and align replacement footage. They can be turned off from the side menu when they are not needed.</p>
+        </details>
+
+        <details class="reveal">
+          <summary>How do I remove ads?</summary>
+          <p>Open the side menu and choose Remove Ads. The purchase is non-consumable, so it can be restored later on devices using the same Apple ID.</p>
+        </details>
+
+        <details class="reveal">
+          <summary>The app open ad did not appear. Is something wrong?</summary>
+          <p>Ads depend on availability from the ad network and may not appear every time. The app remains fully usable even when no ad is available.</p>
+        </details>
+
+        <details class="reveal">
+          <summary>Which editing apps can use this footage?</summary>
+          <p>Any editor that supports chroma keying and tracking can use the footage, including tools for planar tracking, corner pinning, compositing, and motion graphics.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="support" class="section support-section">
+      <div class="support-panel reveal">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>Questions, issues, and purchase help.</h2>
+          <p>If you need help using Chroma Grid, have a problem with Remove Ads, or want to report a bug, contact support by email. Include your device model, iOS version, app version, and a short description of the issue.</p>
+        </div>
+        <div class="support-actions">
+          <a class="primary-link" href="mailto:info.promobilemedia@icloud.com?subject=Chroma%20Grid%20Support">Email support</a>
+          <p>info.promobilemedia@icloud.com</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <img src="assets/app-icon.png" alt="" width="36" height="36">
-    <span>Chroma Grid</span>
+    <div class="footer-brand">
+      <img src="assets/app-icon.png" alt="" width="36" height="36">
+      <span>Chroma Grid</span>
+    </div>
+    <div class="footer-links">
+      <a href="#help">Help</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support">Support</a>
+      <a href="mailto:info.promobilemedia@icloud.com?subject=Chroma%20Grid%20Support">Contact</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
